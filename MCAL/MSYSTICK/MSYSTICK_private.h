@@ -11,4 +11,11 @@
 #define STK_LOADR                   *((u32 volatile *) (STK_BASE_ADDR + STK_LOADR_OFFSET))
 #define STK_VALR                    *((u32 volatile *) (STK_BASE_ADDR + STK_VALR_OFFSET))
 
+
+#define 	AHB_DIV8		0
+#define 	AHB 			1
+
+#define SINGLE_INTERVALE	0
+#define PERIODIC_INTERVALE	1
+
 #endif
